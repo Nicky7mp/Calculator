@@ -1,0 +1,41 @@
+.calcWrapper {
+  text-align: center;
+  width: 100%;
+  padding: auto;
+}
+
+.calc {
+  display: flex;
+  background-color: slategray;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.display {
+  width: 100%;
+}
+
+.buttonsWrapper {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  background-color: black;
+  color: white;
+}
+
+#clear {
+  color: red;
+}
